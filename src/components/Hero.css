@@ -1,0 +1,37 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+    background-image: url('../assets/images/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+}
+
+.hero-container{
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 40%;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0, .5);
+    padding: 15px;
+}
+
+.hero-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+    .hero-container{
+        width: 80%;
+    }
+}

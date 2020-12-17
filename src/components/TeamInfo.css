@@ -1,0 +1,25 @@
+.team-info{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .team-info-text p{
+    margin-bottom: 10px;
+  }
+  
+  .team-info img{
+    width: 200px;
+  }
+  
+  .player-table{
+    text-align: center;
+  }
+  
+  .player-table tr td{
+    padding: 20px;
+  }
+  
+  .player-table tr:nth-child(even){
+    background-color: #f2f2f2;
+  }

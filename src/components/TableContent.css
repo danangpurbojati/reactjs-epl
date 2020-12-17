@@ -1,0 +1,70 @@
+.table-row{
+    line-height: 60px;
+    /* border: 1px solid red; */
+    /* background-color: red; */
+    }
+
+    .table-row td{
+    border-bottom: 1px solid #fbfbfb;
+    }
+
+    .club-name{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    }
+
+    .club-name:hover{
+    text-decoration: underline;
+    }
+
+    .club-image{
+    width: 20px;
+    /* height: 25px; */
+    margin-right: 20px;
+    }
+
+
+
+    .table-value{
+    text-align: center;
+    max-width: 70px;
+    }
+
+    .table-form{
+    display: flex;
+    justify-content: center;
+    }
+
+    .form-container{
+    cursor: pointer;
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    position: relative;
+    }
+
+    .form-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    }
+
+    @media only screen and (max-width: 900px) {
+    .med-hide{
+        display: none;
+    }
+    }
+    @media only screen and (max-width: 650px) {
+    .club-text{
+        /* text-transform: uppercase; */
+    }
+
+    .small-hide{
+        display: none;
+    } 
+    }
